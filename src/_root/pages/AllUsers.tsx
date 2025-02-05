@@ -1,5 +1,5 @@
 import { useToast } from "@/hooks/use-toast";
-import  UserCard  from "src/components/shared/Usercard";
+import UserCard from '@/components/shared/UserCard';
 import Loader from "@/components/shared/Loader";
 import { useGetUsers } from "@/lib/react-query/queriesAndMutations";
 
