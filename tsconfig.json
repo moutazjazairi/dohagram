@@ -8,12 +8,12 @@
       "path": "./tsconfig.node.json"
     }
   ],
-  "compilerOptions": {
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
+ "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
   }
 }
