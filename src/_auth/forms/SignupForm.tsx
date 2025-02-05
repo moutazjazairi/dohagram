@@ -75,7 +75,7 @@ const { mutateAsync: signInAccount, isPending: isSigningIn} = useSignInAccount()
   return (
       <Form {...form}>
         <div className="sm:w-240 flex-center flex-col">
-          <img src="/assets/images/logo.svg" alt="Logo"/>
+          <img src="/assets/images/G.svg" alt="Logo"/>
           <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">create a new account</h2>
           <p className="text-light-3 small-medium md:base-regular mt-2">To use Mdgram ,Please enter your account detailes</p>
         
